@@ -13,8 +13,8 @@ document.addEventListener("DOMContentLoaded", function() {
     if (toggle && perMonth && perYear) {
         toggle.addEventListener('change', function() {
             const isChecked = toggle.checked;
-            perMonth.style.display = isChecked ? 'none' : 'block';
-            perYear.style.display = isChecked ? 'block' : 'none';
+            perMonth.classList.toggle('box--none');  // Removed the dot here
+            perYear.classList.toggle('box--none');   // Removed the dot here
         });
     } else {
         console.error("Không tìm thấy phần tử toggle hoặc phần tử giá tiền. Hãy kiểm tra lại class selector và ID.");

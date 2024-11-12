@@ -1712,7 +1712,9 @@ input[type="checkbox"]:checked + .toggle-switch::before {
     font-weight: bold;
 }
 
-
+.box--none {
+    display: none;
+}
 
 
 
