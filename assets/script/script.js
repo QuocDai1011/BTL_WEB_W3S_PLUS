@@ -119,6 +119,16 @@ $(document).ready(function() {
     }).mouseleave(function() {
         stopScroll();
     });
+
+    // dark mode 
+    $('.js-darkMode-btn').click(function() {
+        $('.js-nav-darkMode').toggleClass('dark-mode');
+        $('.js-selec-darkMode').toggleClass('dark-mode dark-mode--hover');
+        $('.js-search-darkmode').toggleClass('dark-mode__search');
+        $('.js-darkMode-box').toggleClass('darkMode-box');
+        $('.js-darkMode-text').toggleClass('darkMode-box__text');
+        // hello world
+    })
 });
 
 const images = [
