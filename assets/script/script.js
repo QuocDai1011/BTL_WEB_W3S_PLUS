@@ -128,7 +128,6 @@ $(document).ready(function() {
         $('.js-darkMode-box').toggleClass('darkMode-box');
         $('.js-darkMode-text').toggleClass('darkMode-box__text');
         $('.js-darkMode-btn--hover').toggleClass('dark-mode--hover');
-        // hello world
     })
 });
 
