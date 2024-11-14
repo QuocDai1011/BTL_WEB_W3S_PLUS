@@ -127,6 +127,7 @@ $(document).ready(function() {
         $('.js-search-darkmode').toggleClass('dark-mode__search');
         $('.js-darkMode-box').toggleClass('darkMode-box');
         $('.js-darkMode-text').toggleClass('darkMode-box__text');
+        //con ga
         $('.js-darkMode-btn--hover').toggleClass('dark-mode--hover');
     })
 });
